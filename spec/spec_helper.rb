@@ -1,6 +1,6 @@
 require "bundler/setup"
-require "watson/developer/cloud"
-require 'coveralls'
+require "watson/tone_analyzer"
+require "coveralls"
 
 Coveralls.wear!
 
