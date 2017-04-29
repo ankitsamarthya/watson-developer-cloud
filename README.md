@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/ankitsamarthya/watson-developer-cloud.svg?branch=master)](https://travis-ci.org/ankitsamarthya/watson-developer-cloud)
+[![Build Status](https://travis-ci.org/ankitsamarthya/watson-developer-cloud.svg?branch=master)](https://travis-ci.org/ankitsamarthya/watson-developer-cloud) [![Coverage Status](https://coveralls.io/repos/github/ankitsamarthya/watson-developer-cloud/badge.svg?branch=master)](https://coveralls.io/github/ankitsamarthya/watson-developer-cloud?branch=master)
 
 # Watson::Developer::Cloud
 
