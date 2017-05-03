@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 require 'httparty'
 
 module Watson
@@ -9,7 +10,8 @@ module Watson
     end
 
     def tone(options={})
-      response = HTTParty.post(@url,
+      return HTTParty.post(
+        @url,
         headers: { 'Content-Type': 'application/json' },
         body: options.to_json,
         basic_auth: { username: @username, password: @password }
