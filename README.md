@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/ankitsamarthya/watson-developer-cloud.svg?branch=master)](https://travis-ci.org/ankitsamarthya/watson-developer-cloud) [![Coverage Status](https://coveralls.io/repos/github/ankitsamarthya/watson-developer-cloud/badge.svg?branch=master)](https://coveralls.io/github/ankitsamarthya/watson-developer-cloud?branch=master)
+[![Build Status](https://travis-ci.org/ankitsamarthya/watson-developer-cloud.svg?branch=master)](https://travis-ci.org/ankitsamarthya/watson-developer-cloud) [![Code Climate](https://codeclimate.com/github/ankitsamarthya/watson-developer-cloud/badges/gpa.svg)](https://codeclimate.com/github/ankitsamarthya/watson-developer-cloud) [![Test Coverage](https://codeclimate.com/github/ankitsamarthya/watson-developer-cloud/badges/coverage.svg)](https://codeclimate.com/github/ankitsamarthya/watson-developer-cloud/coverage) [![Issue Count](https://codeclimate.com/github/ankitsamarthya/watson-developer-cloud/badges/issue_count.svg)](https://codeclimate.com/github/ankitsamarthya/watson-developer-cloud)
 
 # Watson::Developer::Cloud
 
