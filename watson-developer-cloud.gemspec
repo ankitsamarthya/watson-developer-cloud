@@ -11,12 +11,13 @@ Gem::Specification.new do |spec|
   spec.authors = ['Ankit Samarthya']
   spec.email = ['ankitsamar@outlook.com']
 
-  spec.summary = %q{Ruby client library to use the Watson Developer Cloud services, a collection of APIs that use cognitive computing to solve complex problems.}
+  spec.summary = 'Ruby client library to use the Watson Developer Cloud ' \
+    'services, a collection of APIs that use cognitive computing to solve ' \
+    'complex problems.'
   spec.homepage = 'https://github.com/ankitsamarthya/watson-developer-cloud'
   spec.license = 'MIT'
 
-  # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
-  # to allow pushing to a single host or delete this section to allow pushing to any host.
+  # To allow pushes either set the 'allowed_push_host'
   if spec.respond_to?(:metadata)
     spec.metadata['allowed_push_host'] = 'https://rubygems.org'
   else
