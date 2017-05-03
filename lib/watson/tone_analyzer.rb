@@ -5,8 +5,7 @@ module Watson
   class ToneAnalyzer
     def initialize(
         username, password, version = 'v3',
-        version_date = '2016-05-19'
-      )
+        version_date = '2016-05-19')
       @username = username
       @password = password
       @url = 'https://gateway.watsonplatform.net/tone-analyzer/api' \
