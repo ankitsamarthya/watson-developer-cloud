@@ -1,0 +1,62 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://gateway.watsonplatform.net/tone-analyzer/api/v3/tone?version=2016-05-19
+    body:
+      encoding: UTF-8
+      string: '{"text":"some random text"}'
+    headers:
+      Content-Type:
+      - application/json
+      Authorization:
+      - Basic N2MxYzEwMjMtMDg1ZS00NTllLTg3MjItOWQ3NmI4OTI1NjM1OkJwWkdoblV3QTBnRQ==
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Backside-Transport:
+      - OK OK
+      Connection:
+      - Keep-Alive
+      Transfer-Encoding:
+      - chunked
+      X-Service-Api-Version:
+      - 3.2; 2016-05-19
+      X-Content-Type-Options:
+      - nosniff
+      Content-Security-Policy:
+      - default-src 'none'
+      Pragma:
+      - no-cache
+      X-Xss-Protection:
+      - 1; mode=block
+      Date:
+      - Thu, 04 May 2017 18:13:09 GMT
+      Cache-Control:
+      - no-store
+      Content-Type:
+      - application/json
+      Server:
+      - "-"
+      Set-Cookie:
+      - Watson-DPAT=EhOwSYaelJWKd6sqcxzJ7fUfoVJkflJDXi2Xjx1pkr2GfpJ79Bcf3RO6zwSQ9OmkI2OynK1mB78oKMSOLWjnL9th7buTD71kudxZycNGgE6pq%2BhFDZWldHzfdMfx6wj4kEez%2B7ku7AIwytkG%2F44E6FApjnUwNjdsZ%2FYyKHUjreBepNhKhvOHCNSVxShwIKCG3Tzp8aiONC6qHtXiQDZK%2F5MiC%2BpM7ZLQvx7CFaBWIKMrzvq5W4R8oq5bxGb9UPaSV2I8tm7vndTpg00AKHbCint6pKlCBdeO1xJ0M0vl1jz5P3LdU%2F9ooi%2BRl%2FT20IShXFnJavb4Z2UeDHNEpJk6ye%2FAAk98VyyZKF%2BawQLGsTxRD6Dlc6iTBG%2F%2FPNWPgyXCnCfHJHtkdxGM85EqbtsByxGimwoM9lMCtHsqAQPSXTOrMuhT%2BUaNd6buZmRuS5PJ9NSoP%2BzYeelunWNLWWDWhFItsNc%2F2qJJA%2FmFPCRF46pSnfJUe1JdDq4%2FIcYN8VFrEYsZEnoL%2BfilUP1Kj8E1srX8VBmJoxCCW9vBJrwyoTc3BYbDif%2FEyJUFP0pdq08zzPxZmvu17ZMupdEch4vlk1prm2OHDWqt6wjoWa0c%2BZU12ZDx2g7uhky22R7uEw%2BHhwYM10fnGFjYKbIXssTuLLeaZhoJ%2BXclbru3KDLrlsRuymrAGMgia3BjItF7cgHsRUKksWXCXKzekLgS%2FC7zEuBs4gm8m3MDqlKcxHkp8pE0w9hIg8sJw2%2BaE%2BwA5LKmcwTanu4EUzX9JN7BfmYM1S2fgpXfArDQCfEgnUXpxkJYFhILXl7pdYIMQN6iMy%2F2TiVtkbclk1AYZAiAbjlBWEGnmjkY%2BU5RaJib6gBTzCUXK8XF5GTGeGEm%2FT7sMHlzX2%2B7U7aWz1cdQy3zm%2BHmMQ%3D%3D;
+        path=/tone-analyzer/api; secure; HttpOnly
+      X-Client-Ip:
+      - 106.51.21.239
+      X-Global-Transaction-Id:
+      - '402349556'
+      Strict-Transport-Security:
+      - max-age=31536000;
+      X-Dp-Watson-Tran-Id:
+      - gateway-dp01-402349556
+    body:
+      encoding: UTF-8
+      string: '{"document_tone":{"tone_categories":[{"tones":[{"score":0.076561,"tone_id":"anger","tone_name":"Anger"},{"score":0.016455,"tone_id":"disgust","tone_name":"Disgust"},{"score":0.212155,"tone_id":"fear","tone_name":"Fear"},{"score":0.090764,"tone_id":"joy","tone_name":"Joy"},{"score":0.554617,"tone_id":"sadness","tone_name":"Sadness"}],"category_id":"emotion_tone","category_name":"Emotion
+        Tone"},{"tones":[{"score":0.0,"tone_id":"analytical","tone_name":"Analytical"},{"score":0.0,"tone_id":"confident","tone_name":"Confident"},{"score":0.999739,"tone_id":"tentative","tone_name":"Tentative"}],"category_id":"language_tone","category_name":"Language
+        Tone"},{"tones":[{"score":0.363523,"tone_id":"openness_big5","tone_name":"Openness"},{"score":0.275465,"tone_id":"conscientiousness_big5","tone_name":"Conscientiousness"},{"score":0.549954,"tone_id":"extraversion_big5","tone_name":"Extraversion"},{"score":0.600415,"tone_id":"agreeableness_big5","tone_name":"Agreeableness"},{"score":0.277033,"tone_id":"emotional_range_big5","tone_name":"Emotional
+        Range"}],"category_id":"social_tone","category_name":"Social Tone"}]}}'
+    http_version: 
+  recorded_at: Thu, 04 May 2017 18:13:09 GMT
+recorded_with: VCR 3.0.3
