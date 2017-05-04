@@ -4,9 +4,11 @@ describe Watson::ToneAnalyzer do
 
   let(:tone_analyzer){Watson::ToneAnalyzer.new(ENV['USERNAME'], ENV['PASSWORD'])}
 
-  it "should exist and initialize" do
-    expect(tone_analyzer).not_to be nil
-    expect(tone_analyzer).to be_kind_of(Watson::ToneAnalyzer)
+  describe '#initialize' do
+    it "should initialize with username and password" do
+      expect(tone_analyzer).not_to be nil
+      expect(tone_analyzer).to be_kind_of(Watson::ToneAnalyzer)
+    end
   end
 
   describe '#tone' do

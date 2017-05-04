@@ -3,12 +3,17 @@ require 'httparty'
 
 module Watson
   class ToneAnalyzer
-    def initialize(username, password, version = 'v3',
+    def initialize(username, password, tone_type = nil, version = 'v3',
                    version_date = '2016-05-19')
       @username = username
       @password = password
-      @url = 'https://gateway.watsonplatform.net/tone-analyzer/api' \
-        "/#{version}/tone?version=#{version_date}"
+      if tone_type.nil?
+        @url = 'https://gateway.watsonplatform.net/tone-analyzer/api' \
+          "/#{version}/tone?version=#{version_date}"
+      else
+        @url = 'https://gateway.watsonplatform.net/tone-analyzer/api' \
+          "/#{version}/tone?version=#{version_date}&tones=#{tone_type}"
+      end
     end
 
     def tone(options = {})
